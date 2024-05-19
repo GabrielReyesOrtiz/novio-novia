@@ -1,0 +1,51 @@
+body {
+    background-color: pink;
+    color: white;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    padding-top: 50px;
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 3em;
+    color: red;
+    text-shadow: 2px 2px 5px #ff69b4;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    font-size: 1.5em;
+    padding: 15px 30px;
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+#yes-button {
+    background-color: red;
+    color: white;
+}
+
+#yes-button:hover {
+    background-color: #ff69b4;
+    transform: scale(1.1);
+}
+
+#no-button {
+    background-color: white;
+    color: red;
+}
+
+#no-button:hover {
+    background-color: #ff69b4;
+}
